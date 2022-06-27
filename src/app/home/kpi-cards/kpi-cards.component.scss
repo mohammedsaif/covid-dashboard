@@ -1,0 +1,31 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 18.125rem;
+  border-radius: 1px;
+}
+
+.card:hover {
+  box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.6);
+}
+.img-profile {
+  width: 18.125rem;
+  height: 18.125rem;
+}
+.container {
+  padding: 2px 16px;
+}
+.header-cls {
+  color: var(--blue);
+  font-size: 15px;
+  margin-top: 1.25rem;
+}
+.mt-18 {
+  margin-top: 0.75rem;
+  color: var(--grey);
+}
+.modified-cls {
+  margin: 1.25rem 0 0.875rem 0;
+  font-weight: lighter;
+  color: var(--grey);
+}

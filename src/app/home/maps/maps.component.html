@@ -1,0 +1,15 @@
+<div class="map-wrapper">
+    <div class="row">
+        <div class="col col-12">
+            <div class="card bg-light text-dark">
+                <div class="card-header">Country: {{countryName}}</div>
+                <div class="card-header">Total : {{totalCases}}</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="map" style="height: 70vh;" leaflet (leafletMapReady)="onMapReady($event)" [leafletOptions]="options">
+    </div>
+
+</div>
