@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
 
   }
   getCovidData() {
-    this.sharedService.displaySpinner(true);
+
     forkJoin([this.coreService.getCountries(),
     this.coreService.getCountriesStats(),
     this.coreService.getCountriesHistory(),
@@ -27,9 +27,9 @@ export class HomeComponent implements OnInit {
       this.countriesName = results[0]?.response;
       this.setLatLongOndata(results[1].response, results[3]);
       this.setHistoryData(results[2].response);
-      this.sharedService.displaySpinner(false);
+
     }, (_error) => {
-      this.sharedService.displaySpinner(false);
+
     })
   }
   setHistoryData(response: any) {

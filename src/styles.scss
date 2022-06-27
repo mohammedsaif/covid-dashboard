@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 /* width */
+@import "./assets/scss/variables.scss";
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -17,4 +18,7 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+body {
+  overflow-x: hidden;
 }
