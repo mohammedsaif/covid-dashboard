@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseURL: 'http://localhost:8888/sigreen-api',
+  baseURL: 'https://covid-193.p.rapidapi.com',
 };

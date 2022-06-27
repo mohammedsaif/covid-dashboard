@@ -102,7 +102,7 @@ export class HistoricalDataComponent implements AfterViewInit {
         height: (9 / 16 * 100) + '%'
       },
       title: {
-        text: 'Line Chart',
+        text: 'Active Cases Line Chart',
       },
       credits: {
         enabled: false,
